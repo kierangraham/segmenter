@@ -1,5 +1,5 @@
 all:
-	gcc -Wall -g segmenter.c -o segmenter -lavformat -lavcodec -lavutil
+	gcc -Wall -g segmenter.c -o segmenter -lavformat -lavcodec -lavutil -lbz2 -lm -lz -lfaac -lmp3lame -lx264 -lfaad
 
 clean:
 	rm segmenter
