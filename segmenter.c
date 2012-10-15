@@ -170,7 +170,7 @@ int write_index_file(const struct options_t options, const unsigned int first_se
 
 void display_usage(void)
 {
-    printf("Usage: m3u8-sementer [OPTION]...\n");
+    printf("Usage: sementer [OPTION]...\n");
     printf("\n");
     printf("HTTP Live Streaming - Segments TS file and creates M3U8 index.");
     printf("\n");
